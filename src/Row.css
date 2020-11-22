@@ -20,3 +20,19 @@
 .row__poster:hover {
   transform: scale(1.08);
 }
+
+.row {
+  margin-left: 20px;
+  color: white;
+}
+
+.row__posterLarge {
+  max-height: 250px;
+  /* transition: transform 450ms;
+  object-fit: contain;
+  width: 100%;
+  margin-right: 10px; */
+}
+.row__posterLarge:hover {
+  transform: scale(1.09);
+}
